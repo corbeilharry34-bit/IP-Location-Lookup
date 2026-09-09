@@ -1,8 +1,8 @@
 const { Telegraf } = require('telegraf');
 require('dotenv').config();
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
-const MINI_APP_URL = process.env.MINI_APP_URL;
+const bot = new Telegraf(process.env.8981212669:AAEUaqJ6tCN5sz-tleco_IfOJuRZ8JIuofA);
+const MINI_APP_URL = process.env.https://serene-gelato-7538ee.netlify.app/;
 
 bot.start((ctx) => {
   ctx.reply(

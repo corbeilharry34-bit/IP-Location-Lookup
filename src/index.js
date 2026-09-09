@@ -8,7 +8,7 @@ bot.start((ctx) => {
     {
       reply_markup: {
         inline_keyboard: [[
-          { text: '🌍 Open IP Lookup',
+          { text: '🌍 Open IP Lookup', url: 'https://example.com' }
         ]]
       }
     }
@@ -20,7 +20,7 @@ bot.command('lookup', (ctx) => {
   ctx.reply('Tap below to open the tool:', {
     reply_markup: {
       inline_keyboard: [[
-      }
+        { text: '🌍 Open IP Lookup', url: 'https://example.com' }
       ]]
     }
   });
